@@ -1,9 +1,15 @@
 package dominio;
 
+//informacion para la rama dev
+
 public class Persona {
     private String nombre;
     private double sueldo;
     private boolean eliminado;
+
+    private int NumTelefono;
+
+    private int cedula;
     
     public Persona(String nombre, double sueldo, boolean eliminado){
         this.nombre = nombre;
@@ -34,5 +40,22 @@ public class Persona {
     public void setEliminado(boolean eliminado){
         this.eliminado = eliminado;
     }
-    
+
+    public int getNumTelefono() {
+        return NumTelefono;
+    }
+
+    public int getCedula() {
+        return cedula;
+    }
+
+    public void setCedula(int cedula) {
+        this.cedula = cedula;
+    }
+
+    public void setNumTelefono(int numTelefono) {
+        NumTelefono = numTelefono;
+
+
+    }
 }
