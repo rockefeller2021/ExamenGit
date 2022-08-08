@@ -1,6 +1,10 @@
 package dominio;
 
+
 //informacion para la rama dev
+
+//Realizo cambios desde la nube con hithub
+
 
 public class Persona {
     private String nombre;
@@ -10,6 +14,8 @@ public class Persona {
     private int NumTelefono;
 
     private int cedula;
+    
+    System.out.println("Hola buenos dias");
     
     public Persona(String nombre, double sueldo, boolean eliminado){
         this.nombre = nombre;
