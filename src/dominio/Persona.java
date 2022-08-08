@@ -1,9 +1,13 @@
 package dominio;
 
+//Realizo cambios desde la nube con hithub
+
 public class Persona {
     private String nombre;
     private double sueldo;
     private boolean eliminado;
+    
+    System.out.println("Hola buenos dias");
     
     public Persona(String nombre, double sueldo, boolean eliminado){
         this.nombre = nombre;
